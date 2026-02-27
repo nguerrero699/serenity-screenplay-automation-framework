@@ -1,0 +1,1 @@
+rootProject.name = "scalable-screenplay-automation-framework"

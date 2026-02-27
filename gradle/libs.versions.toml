@@ -1,0 +1,18 @@
+[versions]
+serenity = "5.1.9"
+selenium = "4.20.0"
+junit = "5.10.2"
+cucumber = "7.14.0"
+
+[libraries]
+serenity-bom = { module = "net.serenity-bdd:serenity-bom", version.ref = "serenity" }
+serenity-core = { module = "net.serenity-bdd:serenity-core" }
+serenity-junit5 = { module = "net.serenity-bdd:serenity-junit5" }
+serenity-screenplay = { module = "net.serenity-bdd:serenity-screenplay" }
+serenity-screenplay-webdriver = { module = "net.serenity-bdd:serenity-screenplay-webdriver" }
+serenity-cucumber = { module = "net.serenity-bdd:serenity-cucumber" }
+
+cucumber-engine = { module = "io.cucumber:cucumber-junit-platform-engine", version.ref = "cucumber" }
+
+selenium-java = { module = "org.seleniumhq.selenium:selenium-java", version.ref = "selenium" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
